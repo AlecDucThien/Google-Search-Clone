@@ -22,7 +22,7 @@ const Search = () => {
                 type="text" 
                 value={value}
                 className='sm:w-96 w-80 h-10 dark:bg-gray-200 border rounded-full shadow-sm outline-none px-6 text-black hover:shadow-lg'
-                placeholder='Search Google or type URL'
+                placeholder='Search Google'
                 onChange={(e) => setValue(e.target.value)}
             />
             <Link to='/search'>

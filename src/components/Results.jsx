@@ -79,7 +79,7 @@ const Results = () => {
               </div>
             ))
           ) : (
-            <p className="text-center text-gray-600 dark:text-gray-400 w-full">Không có kết quả nào.</p>
+            <p className="h-[370px] flex items-center justify-center text-gray-600 dark:text-gray-400 w-full">Không có kết quả nào.</p>
           )}
         </div>
       );
@@ -105,7 +105,7 @@ const Results = () => {
               </a>
             ))
           ) : (
-            <p className="text-center text-gray-600 dark:text-gray-400 w-full">Không có hình ảnh nào.</p>
+            <p className="h-[370px] flex items-center justify-center text-gray-600 dark:text-gray-400 w-full">Không có hình ảnh nào.</p>
           )}
         </div>
       );
@@ -147,7 +147,7 @@ const Results = () => {
               )
             )
           ) : (
-            <p className="text-center text-gray-600 dark:text-gray-400 w-full">Không có tin tức nào.</p>
+            <p className="h-[370px] flex items-center justify-center text-gray-600 dark:text-gray-400 w-full">Không có tin tức nào.</p>
           )}
         </div>
       );
@@ -178,7 +178,7 @@ const Results = () => {
               </div>
             ))
           ) : (
-            <p className="text-center text-gray-600 dark:text-gray-400 w-full">Không có video nào.</p>
+            <p className="h-[370px] flex items-center justify-center text-gray-600 dark:text-gray-400 w-full">Không có video nào.</p>
           )}
         </div>
       );
